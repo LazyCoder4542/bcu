@@ -5,9 +5,125 @@ function Dashboard() {
     <div className="flex">
       <aside>
         <SideBar />
-      </aside>
-      <main className="flex-1">
+      </aside>  
+      <main className="relative overflow-y-scroll flex-1 h-screen">
         <Header />
+        <div className="flex flex-1">
+          <div className="flex-1 flex flex-col h-full bg-[#fafafa] p-6 gap-6">
+            <h2>Welcome, Grace!</h2>
+            <div className="flex flex-wrap justify-between gap-y-8 *:basis-[32%] *:shadow-sm">
+              <div className="items-center flex p-8 pr-4 rounded-xl text-white bg-[linear-gradient(180deg,#009AF4_0%,#005A8E_100%)]">
+                <div className="flex-1 flex flex-col gap-6">
+                  <h4>TOTAL MEMBERS</h4>
+                  <p className="text-[2rem] font-bold">6,451</p>
+                </div>
+                <div>
+                  <span className="bg-[#2AABF6] block p-2 rounded-full">
+                    <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.0804 12.2287C13.9679 12.2175 13.8329 12.2175 13.7091 12.2287C11.0316 12.1387 8.9054 9.945 8.9054 7.245C8.9054 4.48875 11.1329 2.25 13.9004 2.25C16.6566 2.25 18.8954 4.48875 18.8954 7.245C18.8841 9.945 16.7579 12.1387 14.0804 12.2287Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M8.45557 16.38C5.73307 18.2025 5.73307 21.1725 8.45557 22.9837C11.5493 25.0537 16.6231 25.0537 19.7168 22.9837C22.4393 21.1612 22.4393 18.1913 19.7168 16.38C16.6343 14.3213 11.5606 14.3213 8.45557 16.38Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div className="items-center flex p-8 pr-4 rounded-xl bg-white text-primary">
+                <div className="flex-1 flex flex-col gap-6">
+                  <h4>TOTAL MEMBERS</h4>
+                  <p className="text-[2rem] font-bold">6,451</p>
+                </div>
+                <div>
+                  <span className="bg-[#2AABF6] block p-2 rounded-full">
+                    <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.0804 12.2287C13.9679 12.2175 13.8329 12.2175 13.7091 12.2287C11.0316 12.1387 8.9054 9.945 8.9054 7.245C8.9054 4.48875 11.1329 2.25 13.9004 2.25C16.6566 2.25 18.8954 4.48875 18.8954 7.245C18.8841 9.945 16.7579 12.1387 14.0804 12.2287Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M8.45557 16.38C5.73307 18.2025 5.73307 21.1725 8.45557 22.9837C11.5493 25.0537 16.6231 25.0537 19.7168 22.9837C22.4393 21.1612 22.4393 18.1913 19.7168 16.38C16.6343 14.3213 11.5606 14.3213 8.45557 16.38Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div className="items-center flex p-8 pr-4 rounded-xl bg-white text-primary">
+                <div className="flex-1 flex flex-col gap-6">
+                  <h4>TOTAL MEMBERS</h4>
+                  <p className="text-[2rem] font-bold">6,451</p>
+                </div>
+                <div>
+                  <span className="bg-[#2AABF6] block p-2 rounded-full">
+                    <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.0804 12.2287C13.9679 12.2175 13.8329 12.2175 13.7091 12.2287C11.0316 12.1387 8.9054 9.945 8.9054 7.245C8.9054 4.48875 11.1329 2.25 13.9004 2.25C16.6566 2.25 18.8954 4.48875 18.8954 7.245C18.8841 9.945 16.7579 12.1387 14.0804 12.2287Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M8.45557 16.38C5.73307 18.2025 5.73307 21.1725 8.45557 22.9837C11.5493 25.0537 16.6231 25.0537 19.7168 22.9837C22.4393 21.1612 22.4393 18.1913 19.7168 16.38C16.6343 14.3213 11.5606 14.3213 8.45557 16.38Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div className="items-center flex p-8 pr-4 rounded-xl bg-white text-primary">
+                <div className="flex-1 flex flex-col gap-6">
+                  <h4>TOTAL MEMBERS</h4>
+                  <p className="text-[2rem] font-bold">6,451</p>
+                </div>
+                <div>
+                  <span className="bg-[#2AABF6] block p-2 rounded-full">
+                    <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.0804 12.2287C13.9679 12.2175 13.8329 12.2175 13.7091 12.2287C11.0316 12.1387 8.9054 9.945 8.9054 7.245C8.9054 4.48875 11.1329 2.25 13.9004 2.25C16.6566 2.25 18.8954 4.48875 18.8954 7.245C18.8841 9.945 16.7579 12.1387 14.0804 12.2287Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M8.45557 16.38C5.73307 18.2025 5.73307 21.1725 8.45557 22.9837C11.5493 25.0537 16.6231 25.0537 19.7168 22.9837C22.4393 21.1612 22.4393 18.1913 19.7168 16.38C16.6343 14.3213 11.5606 14.3213 8.45557 16.38Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div className="items-center flex p-8 pr-4 rounded-xl bg-white text-primary">
+                <div className="flex-1 flex flex-col gap-6">
+                  <h4>TOTAL MEMBERS</h4>
+                  <p className="text-[2rem] font-bold">6,451</p>
+                </div>
+                <div>
+                  <span className="bg-[#2AABF6] block p-2 rounded-full">
+                    <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.0804 12.2287C13.9679 12.2175 13.8329 12.2175 13.7091 12.2287C11.0316 12.1387 8.9054 9.945 8.9054 7.245C8.9054 4.48875 11.1329 2.25 13.9004 2.25C16.6566 2.25 18.8954 4.48875 18.8954 7.245C18.8841 9.945 16.7579 12.1387 14.0804 12.2287Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M8.45557 16.38C5.73307 18.2025 5.73307 21.1725 8.45557 22.9837C11.5493 25.0537 16.6231 25.0537 19.7168 22.9837C22.4393 21.1612 22.4393 18.1913 19.7168 16.38C16.6343 14.3213 11.5606 14.3213 8.45557 16.38Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div className="items-center flex p-8 pr-4 rounded-xl bg-white text-primary">
+                <div className="flex-1 flex flex-col gap-6">
+                  <h4>TOTAL MEMBERS</h4>
+                  <p className="text-[2rem] font-bold">6,451</p>
+                </div>
+                <div>
+                  <span className="bg-[#2AABF6] block p-2 rounded-full">
+                    <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.0804 12.2287C13.9679 12.2175 13.8329 12.2175 13.7091 12.2287C11.0316 12.1387 8.9054 9.945 8.9054 7.245C8.9054 4.48875 11.1329 2.25 13.9004 2.25C16.6566 2.25 18.8954 4.48875 18.8954 7.245C18.8841 9.945 16.7579 12.1387 14.0804 12.2287Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M8.45557 16.38C5.73307 18.2025 5.73307 21.1725 8.45557 22.9837C11.5493 25.0537 16.6231 25.0537 19.7168 22.9837C22.4393 21.1612 22.4393 18.1913 19.7168 16.38C16.6343 14.3213 11.5606 14.3213 8.45557 16.38Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div className="items-center flex p-8 pr-4 rounded-xl bg-white text-primary">
+                <div className="flex-1 flex flex-col gap-6">
+                  <h4>TOTAL MEMBERS</h4>
+                  <p className="text-[2rem] font-bold">6,451</p>
+                </div>
+                <div>
+                  <span className="bg-[#2AABF6] block p-2 rounded-full">
+                    <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M14.0804 12.2287C13.9679 12.2175 13.8329 12.2175 13.7091 12.2287C11.0316 12.1387 8.9054 9.945 8.9054 7.245C8.9054 4.48875 11.1329 2.25 13.9004 2.25C16.6566 2.25 18.8954 4.48875 18.8954 7.245C18.8841 9.945 16.7579 12.1387 14.0804 12.2287Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M8.45557 16.38C5.73307 18.2025 5.73307 21.1725 8.45557 22.9837C11.5493 25.0537 16.6231 25.0537 19.7168 22.9837C22.4393 21.1612 22.4393 18.1913 19.7168 16.38C16.6343 14.3213 11.5606 14.3213 8.45557 16.38Z" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <aside className="w-[400px] px-4 py-10">
+            <div className="p-4 rounded-lg border border-[#80808088]">
+              <header className="flex justify-between">
+                <h3 className="font-semibold">Pending Approval</h3>
+                <span className="px-6 py-2 rounded-lg border border-[#80808088]">See All</span>
+              </header>
+              <div className="flex min-h-16 justify-center items-center">
+                <p>No pending approvals</p>
+              </div>
+            </div>
+          </aside>
+        </div>
       </main>
     </div>
   );
@@ -15,7 +131,7 @@ function Dashboard() {
 
 function Header() {
   return (
-    <header className="flex items-center justify-between p-6 border-b-2 border-[#D9D9D9]">
+    <header className="bg-white sticky top-0 flex items-center justify-between p-6 border-b-2 border-[#D9D9D9]">
       <h1>Dashboard</h1>
       <div className="flex gap-8 items-center">
         <Searchbox />
