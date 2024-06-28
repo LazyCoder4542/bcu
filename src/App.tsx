@@ -5,6 +5,7 @@ import Login from './pages/login'
 import Register from './pages/register'
 import AdminLogin from './pages/admin-login'
 import VerifyEmail from './pages/verify-email'
+import Dashboard from './pages/dashboard'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -14,6 +15,7 @@ const router = createBrowserRouter(
       <Route path='register' element={<Register/>} />
       <Route path='admin-login' element={<AdminLogin/>} />
       <Route path='verify-email' element={<VerifyEmail/>} />
+      <Route path='dashboard' element={<Dashboard/>} />
     </Route>
   )
   // createRoutesFromElements(
