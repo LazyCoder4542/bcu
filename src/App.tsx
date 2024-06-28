@@ -3,6 +3,8 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } 
 import Home from './pages/home'
 import Login from './pages/login'
 import Register from './pages/register'
+import AdminLogin from './pages/admin-login'
+import VerifyEmail from './pages/verify-email'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -10,6 +12,8 @@ const router = createBrowserRouter(
       <Route index element={<Home/>} />
       <Route path='login' element={<Login/>} />
       <Route path='register' element={<Register/>} />
+      <Route path='admin-login' element={<AdminLogin/>} />
+      <Route path='verify-email' element={<VerifyEmail/>} />
     </Route>
   )
   // createRoutesFromElements(

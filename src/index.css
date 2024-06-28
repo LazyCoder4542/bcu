@@ -9,6 +9,9 @@
   h1 {
     @apply text-[2rem] leading-[26px] font-semibold
   }
+  h2 {
+    @apply text-[1.5rem] leading-[26px] font-semibold
+  }
   .button {
     @apply mt-12 flex p-4 bg-primary rounded-lg text-white font-bold leading-5 justify-center items-center cursor-pointer
   }
