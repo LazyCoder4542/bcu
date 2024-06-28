@@ -2,7 +2,7 @@ function SideBar() {
   return (
     <div className="h-screen flex flex-col items-center w-[100px] gap-10 py-4">
       <div className="w-[50px] flex items-center justify-center">
-        <img className="w-[21.25rem] h-auto" src="i/small.png" alt="logo" />
+        <img className="w-[21.25rem] h-auto" src="/i/small.png" alt="logo" />
       </div>
       <div className="flex-1">
         <div className="flex flex-col items-center gap-4">

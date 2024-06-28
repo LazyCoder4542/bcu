@@ -46,7 +46,7 @@ function Register() {
                 <span className="text-sm text-primary font-semibold">Forgot Password?</span>
               </div>
             </div>
-            <div className="button">Sign Up</div>
+            <div className="button mt-12">Sign Up</div>
           </form>
         </div>
       </div>

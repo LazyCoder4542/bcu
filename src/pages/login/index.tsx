@@ -42,7 +42,7 @@ function Login() {
                 <span className="text-sm text-primary font-semibold">Forgot Password?</span>
               </div>
             </div>
-            <div className="button">Log In</div>
+            <div className="button mt-12">Log In</div>
           </form>
         </div>
       </div>

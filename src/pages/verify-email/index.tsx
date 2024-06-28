@@ -31,7 +31,7 @@ function VerifyEmail() {
               }
             />
             <div className='flex flex-col gap-4 items-center'>
-              <div className="button">Verify Code</div>
+              <div className="button mt-12">Verify Code</div>
               <span>Resend code</span>
             </div>
           </form>
