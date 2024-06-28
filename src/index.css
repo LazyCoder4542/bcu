@@ -12,6 +12,9 @@
   h2 {
     @apply text-[1.5rem] leading-[26px] font-semibold
   }
+  h3 {
+    @apply text-[1.2rem] font-medium
+  }
   .button {
     @apply mt-12 flex p-4 bg-primary rounded-lg text-white font-bold leading-5 justify-center items-center cursor-pointer
   }

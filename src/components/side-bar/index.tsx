@@ -52,9 +52,9 @@ function SideBar() {
       <div className="flex flex-col items-center gap-4">
         <span>
           <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M18.8745 9.44999C18.487 4.94999 16.1745 3.11249 11.112 3.11249H10.9495C5.36201 3.11249 3.12451 5.34999 3.12451 10.9375V19.0875C3.12451 24.675 5.36201 26.9125 10.9495 26.9125H11.112C16.137 26.9125 18.4495 25.1 18.862 20.675" stroke="#443C3C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M11.25 15H25.475" stroke="#443C3C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M22.6875 10.8125L26.875 15L22.6875 19.1875" stroke="#443C3C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M18.8745 9.44999C18.487 4.94999 16.1745 3.11249 11.112 3.11249H10.9495C5.36201 3.11249 3.12451 5.34999 3.12451 10.9375V19.0875C3.12451 24.675 5.36201 26.9125 10.9495 26.9125H11.112C16.137 26.9125 18.4495 25.1 18.862 20.675" stroke="#443C3C" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin  ="round"/>
+            <path d="M11.25 15H25.475" stroke="#443C3C" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin ="round"/>
+            <path d="M22.6875 10.8125L26.875 15L22.6875 19.1875" stroke="#443C3C" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin ="round"/>
           </svg>
         </span>
         <span>
@@ -63,10 +63,10 @@ function SideBar() {
             <g filter="url(#filter0_ddd_104_1429)">
             <rect x="26" y="2" width="28" height="28" rx="14" fill="#09090A"/>
             </g>
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M45.9562 19.1359C44.4234 18.8673 42.8947 17.7416 41.9736 16.0223C40.8847 13.9896 40.9628 11.7204 42.0142 10.2794C42.122 10.1318 42.24 9.99276 42.368 9.86362C42.6149 9.61455 42.5435 9.14979 42.1963 9.09307C41.9699 9.05608 41.7399 9.02981 41.5067 9.01481C41.354 9.00499 41.2 9 41.0447 9C37.154 9 34 12.134 34 16C34 19.866 37.154 23 41.0447 23C43.2587 23 45.2342 21.9852 46.5256 20.3981C46.6724 20.2178 46.8103 20.0301 46.9387 19.8356C47.1217 19.5585 46.8679 19.2066 46.5345 19.1961C46.3425 19.19 46.1493 19.1697 45.9562 19.1359Z" stroke="#C8BCF6" stroke-width="1.5"/>
+            <path fillRule  ="evenodd" clipRule="evenodd" d="M45.9562 19.1359C44.4234 18.8673 42.8947 17.7416 41.9736 16.0223C40.8847 13.9896 40.9628 11.7204 42.0142 10.2794C42.122 10.1318 42.24 9.99276 42.368 9.86362C42.6149 9.61455 42.5435 9.14979 42.1963 9.09307C41.9699 9.05608 41.7399 9.02981 41.5067 9.01481C41.354 9.00499 41.2 9 41.0447 9C37.154 9 34 12.134 34 16C34 19.866 37.154 23 41.0447 23C43.2587 23 45.2342 21.9852 46.5256 20.3981C46.6724 20.2178 46.8103 20.0301 46.9387 19.8356C47.1217 19.5585 46.8679 19.2066 46.5345 19.1961C46.3425 19.19 46.1493 19.1697 45.9562 19.1359Z" stroke="#C8BCF6" strokeWidth="1.5"/>
             <defs>
-            <filter id="filter0_ddd_104_1429" x="22" y="0" width="36" height="36" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <filter id="filter0_ddd_104_1429" x="22" y="0" width="36" height="36" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+            <feFlood floodOpacity="0" result="BackgroundImageFix"/>
             <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
             <feOffset dy="1"/>
             <feGaussianBlur stdDeviation="1.5"/>
